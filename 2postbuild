@@ -1,8 +1,11 @@
 #!/bin/bash
 
 # Install required packages
-pip install voila
+# pip install voila
 
 # Any additional packages you need can be added here
 # For example, if you need pandas, numpy, etc., you can install them here
-pip install pandas numpy matplotlib ipywidgets
+# pip install pandas numpy matplotlib ipywidgets
+
+# Install dependencies and make scripts executable (if applicable)
+echo "Running postBuild script"
