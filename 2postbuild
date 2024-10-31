@@ -1,5 +1,5 @@
 #!/bin/bash
 # Install required packages
-
+pip install voila
 # Make start script executable
 chmod +x start
